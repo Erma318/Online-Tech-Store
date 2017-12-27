@@ -1,3 +1,8 @@
+// The file is one of the back-end routers, which deals with the main page product showing and product editing and adding.
+// The reason why I choose the file as the code to show is that I add two function: pagination and file uploaded. 
+// I learned how to implement this two fuction from differnt sources and do modifications to them to applied them to this project.
+// This shows my self-learning ability and critical thinking ability.
+
 var express = require("express");
 var router  = express.Router();
 var Tech = require("../models/tech");
